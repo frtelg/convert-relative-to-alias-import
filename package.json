@@ -1,42 +1,38 @@
 {
-  "name": "convert-relative-to-alias-import",
-  "version": "1.0.1",
+  "name": "convert-relative-to-alias-imports",
+  "version": "0.0.1",
   "description": "Convert relative imports in a project to aliased imports",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "bin": {
-    "convert-relative-to-alias-import": "./index.js"
+    "convert-relative-to-alias-imports": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/frtelg/convert-relative-to-alias-import.git"
+    "url": "git+ssh://git@github.com/frtelg/convert-relative-to-alias-imports.git"
   },
   "keywords": [
     "convert",
     "relative",
     "alias",
-    "import"
+    "import",
+    "imports"
   ],
   "author": "Franke Telgenhof",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frtelg/convert-relative-to-alias-import/issues"
+    "url": "https://github.com/frtelg/convert-relative-to-alias-imports/issues"
   },
-  "homepage": "https://github.com/frtelg/convert-relative-to-alias-import#readme",
+  "homepage": "https://github.com/frtelg/convert-relative-to-alias-imports#readme",
   "devDependencies": {
-    "@types/minimist": "^1.2.5",
-    "@types/node": "^20.10.5",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.0",
-    "prettier": "^3.1.1",
-    "typescript": "^5.3.3"
+    "prettier": "^3.1.1"
   },
   "dependencies": {
-    "minimist": "^1.2.8",
-    "ts-node": "^10.9.2"
+    "minimist": "^1.2.8"
   }
 }
