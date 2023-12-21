@@ -1,6 +1,6 @@
 {
   "name": "convert-relative-to-alias-imports",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert relative imports in a project to aliased imports",
   "main": "index.js",
   "scripts": {
