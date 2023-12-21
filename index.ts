@@ -1,6 +1,6 @@
-import miniminst from 'minimist';
-import fs from 'fs';
-import path from 'path';
+const miniminst = require('minimist');
+const fs = require('fs');
+const path = require('path');
 
 const argv = miniminst(process.argv.slice(2));
 
